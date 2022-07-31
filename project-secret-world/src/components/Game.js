@@ -2,7 +2,7 @@ import '../styles/Game.css';
 import { useState, useRef } from 'react';
 
 
-const Game = ({verifyLetter, pickedWord, pickedCategory, letters, guessedLetters, wrongLetters, score, guesses}) => {
+const Game = ({verifyLetter, pickedCategory, letters, guessedLetters, wrongLetters, score, guesses}) => {
 
   const [letter, setletter] = useState("");
   const letterInputRef = useRef(null);
