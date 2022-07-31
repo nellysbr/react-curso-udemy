@@ -1,0 +1,21 @@
+.carContent {
+    padding: 20px;
+    border: 1px solid black;
+
+}
+
+.carContent  ul li {
+    list-style: none;
+    
+}
+
+.usedCar01 {
+    background-color: green;
+    color: white;
+
+}
+
+.usedCar02 {
+    background-color: red;
+    color: white;
+}
