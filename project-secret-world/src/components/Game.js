@@ -50,7 +50,6 @@ const Game = ({verifyLetter, pickedWord, pickedCategory, letters, guessedLetters
           <span key={i}>{letter}, </span>
         ))}
       </div>
-      <button onClick={verifyLetter}>Finalizar jogo!</button>
     </div>
   )
 }
